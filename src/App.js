@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
        <div className='container'>
-         <h1>{count}</h1>
-         <button onClick={(()=>setcount(count+1))}>Click</button>
+         <h1> React Tutorial{count}</h1>
+         <button onClick={(()=>setcount(count+1))} style={{height:'40px',width:'100px',backgroundColor:'blue',borderRadius:'5px'}}>Click</button>
        </div>
     </div>
   );
